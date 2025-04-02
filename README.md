@@ -33,11 +33,11 @@ Libraries: pandas, numpy, scikit-learn, nltk, matplotlib
 
 ### Evaluation Metrics
 
-*Accuracy*: Measures the overall correctness of the model (simply the percentage of correct predictions).
-*Precision*: Shows the accuracy of the positive predictions (how many of the predicted positives were actually positive).
-*Recall*: Shows how well the model distinguishes actual positives (how many of the true positives were correctly identified).
-*F1-Score*: The harmonic mean of precision and recall.
-*Confusion Matrix*: Visualizes the true positive, false positive, true negative, and false negative predictions.
+- *Accuracy*: Measures the overall correctness of the model (simply the percentage of correct predictions).
+- *Precision*: Shows the accuracy of the positive predictions (how many of the predicted positives were actually positive).
+- *Recall*: Shows how well the model distinguishes actual positives (how many of the true positives were correctly identified).
+- *F1-Score*: The harmonic mean of precision and recall.
+- *Confusion Matrix*: Visualizes the true positive, false positive, true negative, and false negative predictions.
 
 ### Methods to Improve Model Performance
 
