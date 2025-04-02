@@ -61,6 +61,14 @@ Increase the diversity of training data by adding more labeled reviews or synthe
 - **Deep Learning Models**:
 For more advanced methods, you may use Deep Learning models such as LSTM or BERT for state-of-the-art text classification.
 
+### 📝 Example Results
+- **Model Accuracy**: 74%
 
+- Precision (Positive): 0.75
+- Recall (Positive): 0.74
+- F1-Score (Positive): 0.75
+- Precision (Negative): 0.72
+- Recall (Negative): 0.74
+- F1-Score (Negative): 0.73
 
 
