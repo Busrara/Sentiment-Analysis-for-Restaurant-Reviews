@@ -43,21 +43,22 @@ Confusion Matrix: Visualizes the true positive, false positive, true negative, a
 
 Here are some tips to improve the accuracy and performance of the sentiment analysis model:
 
-- Advanced Text Preprocessing:
+- **Advanced Text Preprocessing**:
 You can try to replace stemming with lemmatization for more accurate word normalization.
 
-- Experiment with N-gram models (bigrams or trigrams) to grasp context in the text.
-- Use more advanced cleaning techniques (e.g., handling negations, correcting typos).
-- Use TF-IDF Vectorizer:
+- **Use TF-IDF Vectorizer**:
 Replace CountVectorizer with TfidfVectorizer to give less common but important words more weight.
-- Model Selection:
+
+- **Model Selection**:
 Experiment with models like Logistic Regression, SVM, or Random Forest for possibly better performance.
-- Try ensemble methods (e.g., Random Forest, Gradient Boosting) to bring together multiple models.
-- Hyperparameter Tuning:
+
+- **Hyperparameter Tuning**:
 Use GridSearchCV or RandomizedSearchCV to tune model parameters for optimal performance.
-- Data Augmentation:
+
+- **Data Augmentation**:
 Increase the diversity of training data by adding more labeled reviews or synthetically augmenting existing data.
-- Deep Learning Models:
+
+- **Deep Learning Models**:
 For more advanced methods, you may use Deep Learning models such as LSTM or BERT for state-of-the-art text classification.
 
 
