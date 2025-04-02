@@ -31,5 +31,35 @@ Libraries: pandas, numpy, scikit-learn, nltk, matplotlib
 
 6. Save Model: The trained model and vectorizer are saved as a .pkl file for future use.
 
+### Evaluation Metrics
+
+Accuracy: Measures the overall correctness of the model (simply the percentage of correct predictions).
+Precision: Shows the accuracy of the positive predictions (how many of the predicted positives were actually positive).
+Recall: Shows how well the model distinguishes actual positives (how many of the true positives were correctly identified).
+F1-Score: The harmonic mean of precision and recall.
+Confusion Matrix: Visualizes the true positive, false positive, true negative, and false negative predictions.
+
+### Methods to Improve Model Performance
+
+Here are some tips to improve the accuracy and performance of the sentiment analysis model:
+
+- Advanced Text Preprocessing:
+You can try to replace stemming with lemmatization for more accurate word normalization.
+
+- Experiment with N-gram models (bigrams or trigrams) to grasp context in the text.
+- Use more advanced cleaning techniques (e.g., handling negations, correcting typos).
+- Use TF-IDF Vectorizer:
+Replace CountVectorizer with TfidfVectorizer to give less common but important words more weight.
+- Model Selection:
+Experiment with models like Logistic Regression, SVM, or Random Forest for possibly better performance.
+- Try ensemble methods (e.g., Random Forest, Gradient Boosting) to bring together multiple models.
+- Hyperparameter Tuning:
+Use GridSearchCV or RandomizedSearchCV to tune model parameters for optimal performance.
+- Data Augmentation:
+Increase the diversity of training data by adding more labeled reviews or synthetically augmenting existing data.
+- Deep Learning Models:
+For more advanced methods, you may use Deep Learning models such as LSTM or BERT for state-of-the-art text classification.
+
+
 
 
