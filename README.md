@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This project conducts sentiment analysis on restaurant reviews, grouping them as either positive or negative. It employs machine learning techniques, specifically the Naive Bayes algorithm, to decide the sentiment of the textual reviews. The main steps are text preprocessing, feature extraction, model training, evaluation, and saving the model for future use.
+This project conducts sentiment analysis on restaurant reviews, labeling them as either positive or negative. It employs machine learning techniques, specifically the Naive Bayes algorithm, to decide the sentiment of the textual reviews. The main steps are text preprocessing, feature extraction, model training, evaluation, and saving the model for future use.
 
 ### Features
 
