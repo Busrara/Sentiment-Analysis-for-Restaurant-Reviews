@@ -71,4 +71,6 @@ For more advanced methods, you may use Deep Learning models such as LSTM or BERT
 - Recall (Negative): 0.74
 - F1-Score (Negative): 0.73
 
+I suggest you to read my medium writing for further understanding: https://medium.com/@busraracoban/building-a-sentiment-analysis-model-for-restaurant-reviews-using-naïve-bayes-42d0346e2c43 
+
 
